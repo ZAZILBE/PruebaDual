@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main: #ed0909;
+    --secoundary: #eb1e1e;
+    --white: #fff;
+    --card-background: #1a951a;
+    --text: #55658F;
+    --container: #9b8c40;
+}
+
+
+body{
+    margin: auto;
+   font-family: verdana;
+   max-width: 1200px;
+   background-color: var(--text);
+}

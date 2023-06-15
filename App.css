@@ -1,0 +1,124 @@
+.user {
+    
+    /* ...otros estilos... */
+
+
+
+}
+  @media screen and (max-width: 600px) {
+    .user {
+      /* ...estilos para móviles... */
+      padding: 30px;
+    
+      height: 500px;
+       color:#C1C8DB ;
+      text-align: center;  
+       margin: 5px;
+      width:400px;
+      display: inline-block;
+      border-radius: 50px;
+      border: #C1C8DB 3px solid;
+    }
+        
+    .card-title{ 
+        margin-bottom: 5px;
+   
+   }
+   .image{
+        border-radius: 50px;
+       background-color: #c1c8db23;
+   
+   
+   }
+   .continfo{
+       border-radius: 20px;
+       font-size: 15px;
+       padding: 15px;
+       color: #C1C8DB;
+        margin: auto; 
+       width: 200px;
+   
+   }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .user {
+      /* ...estilos para tablets... */
+  
+      padding: 30px;
+    
+      height: 480px;
+       color:#C1C8DB ;
+      text-align: center;  
+       margin: 5px;
+      width: 390px;
+      display: inline-block;
+      border-radius: 50px;
+      border: #C1C8DB 3px solid;
+
+    }
+        
+    .card-title{ 
+        font-size: 20px;
+
+        margin-bottom: 10px;
+   
+   }
+   .image{
+        border-radius: 50px;
+       background-color: #c1c8db23;
+   
+   
+   }
+   .continfo{
+       border-radius: 20px;
+       font-size: 19px;
+       padding: 5px;
+       color: #C1C8DB;
+        margin: auto; 
+       width: 300px;
+   
+   }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .user {
+      /* ...estilos para escritorio... */
+      padding: 30px;
+    
+      height: 500px;
+       color:#C1C8DB ;
+      text-align: center;  
+       margin: 5px;
+      width: 560px;
+      display: inline-block;
+      border-radius: 50px;
+      border: #C1C8DB 3px solid;
+    }
+ 
+
+    
+    .card-title{ 
+         margin-bottom: 10px;
+    
+    }
+    .image{
+         border-radius: 50px;
+        background-color: #c1c8db23;
+    
+    
+    }
+    .continfo{
+        border-radius: 20px;
+        font-size: 19px;
+        padding: 15px;
+        color: #C1C8DB;
+         margin: auto; 
+        width: 400px;
+    
+    }
+
+
+
+
+  }
